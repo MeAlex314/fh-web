@@ -1,2 +1,2 @@
 # fh-web
-Repository comprised of all the Fractal Hexagon pages.
+Repository comprised of most of the [Fractal Hexagon](http://fractalhexagon.net/) pages.
