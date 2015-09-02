@@ -4,6 +4,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+    <meta charset="utf-8">
     <title>fractal hexagon - members</title>
 
     <!-- CSS  -->
@@ -44,118 +45,158 @@
             </div>
             <br>
             <br>
-              <div class="row">
-        <div class="col s6">
-          <div class="card">
-            <div class="card-image">
-              <img src="userdata/header-planetary.jpg">
-              <span class="card-title">     <div class="col s2">
+            <div class="row">
+                <h5 class="header col s12 light">founders</h6>
+                <h6 class="header col s12 light">those who created fractal hexagon</p>
+                <div class="col s4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="userdata/header-planetary.jpg">
+                            <span class="card-title">     <div class="col s2">
               <img src="userdata/avatar-planetary.jpg" alt="" width="60px" height="60px" class="user-avatar responsive-img"> <!-- notice the "circle" class -->
             </div>planetary</span>
-            </div>
-            <div class="card-content">
-              <p>Wyatt W, 17, French. Co-founder of Fractal Hexagon, writer of the Providence Online series and CSS person. I like synthwave, flat design, vidyaes and bad Japanese cartoons. That's not my real name, by the way.</p>
-            </div>
-            <div class="card-action">
-              <a href="https://fractalhexagon.net/planetary">click here to access my homepage</a>
-            </div>
-          </div>
-      <div class="card">
-            <div class="card-image">
-              <img src="userdata/header-thebitstick.jpg">
-              <span class="card-title">     <div class="col s2">
-              <img src="userdata/avatar-thebitstick.png" alt="" width="60px" height="60px" class="user-avatar responsive-img"> <!-- notice the "circle" class -->
-            </div>TheBitStick</span>
-            </div>
-            <div class="card-content">
-              <p>Jorge L, 15. Chicago, IL. I just googled everything, I'm an idiot.</p>
-            </div>
-            <div class="card-action">
-              <a href="https://twitter.com/thebitstick">click here to access my twitter</a>
-            </div>
-          </div>
-                
-        </div>
-        <div class="col s6">
-             <div class="card">
-            <div class="card-image">
-              <img src="userdata/header-dasporal.png">
-              <span class="card-title">     <div class="col s2">
-              <img src="userdata/avatar-dasporal.jpg" width="60px" height="60px" class="user-avatar responsive-img"> <!-- notice the "circle" class -->
-            </div>Dasporal</span>
-            </div>
-            <div class="card-content">
-              <p>Jack H, 17, French. Co-founder and writer of the World;Slicers series. Loves JoJo's Bizarre Adventure and lasagnas. I can't meet deadlines. Also interested in games and programming.</p>
-            </div>
-            <div class="card-action">
-              <a href="https://fractalhexagon.net/dasporal">click here to access my homepage</a>
-            </div>
-            </div>
-                    <div class="card">
-            <div class="card-image">
-              <img src="userdata/header-faay.jpg">
-              <span class="card-title">     <div class="col s2">
-              <img src="userdata/avatar-faay.jpg" width="60px" height="60px" class="user-avatar responsive-img"> <!-- notice the "circle" class -->
-            </div>Faay</span>
-            </div>
-            <div class="card-content">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </div>
-            <div class="card-action">
-              <a href="https://fractalhexagon.net/dasporal">click here to access my homepage</a>
-            </div>
-      </div>
-
-        </div>
-    </div>
-    </div>
-
-    <footer class="page-footer purple darken-3">
-        <div class="container">
-            <div class="row">
-                <div class="col l6 s12">
-                    <h5 class="white-text">Our projects</h5>
-                    <p class="grey-text text-lighten-4">We create a various set of content, be it light novels or userstyles.</p>
-                    <div class="col l3 s12">
-                        <h5 class="white-text">Our novels</h5>
-                        <ul>
-                            <li><a class="white-text" href="#!">The Providence Online (Act I)</a>
-                            </li>
-                            <li><a class="white-text" href="#!">The Providence Online (Act II)</a>
-                            </li>
-                            <li><a class="white-text" href="#!">World;Slicers</a>
-                            </li>
-                            <li>
-                                <a class="white-text" href="#!">Arch Nova Renegades</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col l3 s12">
-                        <h5 class="white-text">Other</h5>
-                        <ul>
-                            <li><a class="white-text" href="#!">GitHub organization</a>
-                            </li>
-                            <li><a class="white-text" href="#!">Novels overview</a>
-                            </li>
-                            <li><a class="white-text" href="https://fractalhexagon.net/dev/snowflake">Snowflake</a>
-                            </li>
-                            <li><a class="white-text" href="https://github.com/FractalHexagon/Redlight-for-YouTube">Redlight</a>
-                            </li>
-                        </ul>
+                        </div>
+                        <div class="card-content">
+                            <p>Wyatt W, 17, French. Co-founder of Fractal Hexagon, writer of the Providence Online series and CSS person. I like synthwave, flat design, vidyaes and bad Japanese cartoons. That's not my real name, by the way.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://fractalhexagon.net/planetary">click here to access my homepage</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="footer-copyright">
-                <div class="container">
-                    Shamelessly stolen <a class="purple-text text-lighten-3" href="http://materializecss.com">Materialize</a>.css while our own design is under work. </div>
-            </div>
-    </footer>
+                <div class="col s4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="userdata/header-dasporal.png">
+                            <span class="card-title">     <div class="col s2">
+              <img src="userdata/avatar-dasporal.jpg" width="60px" height="60px" class="user-avatar responsive-img"> <!-- notice the "circle" class -->
+            </div>Dasporal</span>
+                        </div>
+                        <div class="card-content">
+                            <p>Jack H, 17, French. Co-founder and writer of the World;Slicers series. Loves JoJo's Bizarre Adventure and lasagnas. I can't meet deadlines. Also interested in games and programming.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://fractalhexagon.net/dasporal">click here to access my homepage</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="userdata/header-haruto.jpg">
+                            <span class="card-title">     <div class="col s2">
+              <img src="userdata/avatar-haruto.png" width="60px" height="60px" class="user-avatar responsive-img"> <!-- notice the "circle" class -->
+            </div>Haruto</span>
+                        </div>
+                        <div class="card-content">
+                            <p>Adel D-K, 17, French. Co-founder, server operator and lead developer. Apocalyptic shit disturber. Writing something... secret. Coming soon. See ya, you meme-loving fucks.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://fractalhexagon.net/dasporal">click here to access my homepage</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                     <h5 class="header col s12 light">contributors</h6>
+                <h6 class="header col s12 light">those who helped fractal hexagon, even once</p>
+                    <div class="col s6">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="userdata/header-thebitstick.jpg">
+                                <span class="card-title">     <div class="col s2">
+              <img src="userdata/avatar-thebitstick.png" alt="" width="60px" height="60px" class="user-avatar responsive-img"> <!-- notice the "circle" class -->
+            </div>TheBitStick</span>
+                            </div>
+                            <div class="card-content">
+                                <p>Jorge L, Chicago, IL. I'm 15, I've always liked computers, I used to break things and I learned from that. I like anime and manga and in order to at least understand some stuff I spent 4 months studying 日本語 from a book, at least the Kana.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://twitter.com/thebitstick">click here to access my twitter</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="userdata/header-shookaite.jpg">
+                                <span class="card-title"><div class="col s2">
+              <img src="userdata/avatar-shookaite.png" width="60px" height="60px" class="user-avatar responsive-img"> <!-- notice the "circle" class -->
+            </div>Shookaite</span>
+                            </div>
+                            <div class="card-content">
+                                <p>Damien S, 17, French. I'm more known as Tina but actually I'm a boy. I sometime code things on the web for weebs. I'm a part-time animu enthusiast and I play arcade japanese rhythm games.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="http://fairyjoke.eliozex.eu/">click here to access my homepage</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="userdata/header-calv.png">
+                                <span class="card-title"><div class="col s2">
+              <img src="userdata/avatar-calv.png" width="60px" height="60px" class="user-avatar responsive-img"> <!-- notice the "circle" class -->
+            </div>Calv</span>
+                            </div>
+                            <div class="card-content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="http://fairyjoke.eliozex.eu/">click here to access my homepage</a>
+                            </div>
+                        </div>
 
 
-    <!--  Scripts-->
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="../../bin/materialize.js"></script>
-    <script src="js/init.js"></script>
+                    </div>
+                    <div class="col s6">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="userdata/header-faay.jpg">
+                                <span class="card-title">     <div class="col s2">
+              <img src="userdata/avatar-faay.jpg" width="60px" height="60px" class="user-avatar responsive-img"> <!-- notice the "circle" class -->
+            </div>Faay</span>
+                            </div>
+                            <div class="card-content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://twitter.com/Faayounette">click here to access my twitter</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="userdata/header-aldeoryn.png">
+                                <span class="card-title">     <div class="col s2">
+              <img src="userdata/avatar-aldeoryn.png" width="60px" height="60px" class="user-avatar responsive-img"> <!-- notice the "circle" class -->
+            </div>Aldeoryn</span>
+                            </div>
+                            <div class="card-content">
+                                <p>Joel, 17, French, I write stuff, but I don't think it's too good, I try to improve over time. Also interested by programming. I'm a fan of anime and manga. I currently work on a music project. </p>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://fractalhexagon.net/dasporal">click here to access my homepage</a>
+                            </div>
+                        </div>
+                             <div class="card">
+                            <div class="card-image">
+                                <img src="userdata/header-axel.jpg">
+                                <span class="card-title">     <div class="col s2">
+              <img src="userdata/avatar-axel.png" width="60px" height="60px" class="user-avatar responsive-img"> <!-- notice the "circle" class -->
+            </div>Axel 3.14</span>
+                            </div>
+                            <div class="card-content">
+                                <p>Axel M, 19, Co-composer for SHARDSTREAM. Likes anime, Dr. Pepper, mechanical watches, science stuff, analogue synths, 8-bit games and sounds. May contain unhealthy levels of Pb 204 and decay faster than Po 212. Deadlines are dead.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://fractalhexagon.net/dasporal">click here to access my homepage</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            <!--  Scripts-->
+            <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+            <script src="../../bin/materialize.js"></script>
+            <script src="js/init.js"></script>
 
 </body>
 

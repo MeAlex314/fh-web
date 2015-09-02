@@ -7658,7 +7658,7 @@ footer.page-footer .footer-copyright {
     -o-transition: color .3s ease;
     -ms-transition: color .3s ease;
     transition: color .3s ease;
-    text-transform: uppercase;
+    text-transform: lowercase;
 }
 
 .card .card-action a:hover {
