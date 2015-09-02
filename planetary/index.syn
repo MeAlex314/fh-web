@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <title>planetary</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./css/normalize.css" media="screen">
+    <link href="./css/css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" id="pagestyle" href="./css/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="./css/purple.css" media="screen">
+    <link href='//fonts.googleapis.com/css?family=Roboto:300&subset=cyrillic,latin,greek,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Archivo+Narrow' rel='stylesheet' type='text/css'>
+    <style>
+        body,
+        h1 {
+            font-family: 'Roboto';
+        }
+    </style>
+    <script>
+        var snd = new Audio("audio/tutturu.mp3");
+        var snd2 = new Audio("audio/wombocombo.mp3");
+        var snd3 = new Audio("audio/pentakill.mp3");
+
+        function playPause() {
+            var audioPlayer = document.getElementsByTagName('audio')[0];
+            if (audioPlayer != undefined) {
+                if (audioPlayer.paused) {
+                    audioPlayer.play();
+                } else {
+                    audioPlayer.pause();
+                }
+            } else {
+                loadPlayer();
+            }
+        }
+    </script>
+    <script src="./js/icheck.js"></script>
+    <script src="./js/jquery-2.1.4.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('input').iCheck({
+                checkboxClass: 'icheckbox_square-purple',
+                radioClass: 'iradio_square-purple',
+                increaseArea: '20%' // optional
+            });
+        });
+    </script>
+    <script>
+        function swapStyleSheet(style) {
+            document.getElementById('pagestyle').setAttribute('href', style);
+        }
+    </script>
+
+    <audio autoplay loop>
+        <source src="audio/bgm01.mp3" type="audio/mpeg">
+    </audio>
+</head>
+
+
+
+<body onload="set_style_from_cookie()" style="text-transform: lowercase !important;">
+    <section class="page-header">
+        <h1 align="center" class="pagetitle">
+                                    <button id="xdmemes" onclick="snd.play(); snd.currentTime=0;" class="topkek">
+                                        <img class="avatar"src="img/avatar.jpg" align="left">
+                                        </button>
+                                    </h1>
+        <h1 class="name" style="font-size: 4em !important;">Planetary</h1>
+        <h2 class="subname">Wyatt Winters</h2>
+        <a href="https://twitter.com/wplanetary" class="btn" title="">Twitter</a>
+        <a href="https://github.com/wplanetary" class="btn" title="">GitHub</a>
+    </section>
+
+    <section class="main-content">
+
+        <h2>
+<a id="who-am-i" class="anchor" href="#what-is-snowflake" aria-hidden="true" title=""><span class="octicon octicon-link"></span></a>Who am I?</h2>
+
+        <p>
+            <br />Aeey!
+            <br /> I am Scimitar (but you may also call me "Planetary" or "fucking retard") and this is my
+            <strike>website</strike> homepage. No, Wyatt Winters is not my real name.
+            <br />I usually keep shitposting on Twitter and founded
+            <a href="https://fractalhexagon.net">Fractal Hexagon</a>. I also made a few shitty CSS themes for <a href="https://fractalhexagon.net/dev/snowflake">TweetDeck</a>, <a href="https://github.com/FractalHexagon/SnowflakeWeb">Twitter</a>; I participated in the French translation of a cool website named <a href="https://retrospring.net/?hl=fr">Retrospring</a>, and I'm working on a
+            <a href="https://fractalhexagon.net/shardstream">video game</a> with guys at FH, as well as a few other projects. Oh, the main thing I do, in fact, is <a href="releases">writing things.</a>
+            <br />
+            <br />I can't deal with deadlines.
+            <em>I just can't.</em>
+            <br /> (Also, stop trying to be productive, you know you'll just end up playing vidyaes.) And remember: COMMENTED CODE IS USELESS!
+            <em>/* No, not even for me afterwards. */</em>
+            <br />I guess I should talk about what I like right? Well, I like flat design and minimalism, a lot. I also like Material. I also partly like vaporwave visual aesthetics (the music is boring though) and I love synthwave. My favorite video games are Half-Life 2, Final Fantasy Tactics Advance, Hotline Miami and PAYDAY: The Heist. I am a huge fan of Savant (and the game Savant Ascent) and Childish Gambino. I also like lots of electronic music like Madeon, rock and punk and indie music such as the French band Shaka Ponk, the Hives, Arcade Fire, a bit of rap/ hip-hop too (Macklemore and Kanye). Pisscore and electroclash music is my guilty pleasure. My favorite movies and TV shows are Community, Arrow and The Flash, House of Cards. I loved Matrix, John Wick, Inception and Drive. I also talk a lot about the Chinese cartoons (you can check out my <em style="font-size: 10px;">shit</em> tastes on my Hummingbird page below) but my favorite is Steins;Gate. I read a lot of books, especially light novels. You should definitely read Ready Player One by Ernest Cline, it's in my top books along with Nineteen-Eighty Four by George Orwell.
+        </p>
+
+        <div class="div2">
+            <h2 class="title2"> LINKS !</h2>
+            <p>
+                <br />Hover to see what it's all about!
+                <br />
+            </p>
+            <p class="links">
+                <a class="icon" title="@wplanetary on Twitter" href="http://twitter.com/wplanetary">
+                    <img class="icon" src="img/twitter.png">
+                </a>
+                <a class="box" title="Fractal Hexagon on Facebook" href="http://facebook.com/FractHex">
+                    <img class="icon" src="img/facebook.png">
+                </a>
+                <a class="box" title="@FractHex on Twitter" href="http://twitter.com/FractHex">
+                    <img class="icon" src="img/twitter.png">
+                </a>
+                <a class="box" title="ScimitarF on Last.fm" href="http://www.last.fm/user/ScimitarF">
+                    <img class="icon" src="img/lastfm.png">
+                </a>
+                <a class="box" title="ScimitarF on Hitbox" href="http://hitbox.tv/ScimitarF">
+                    <img class="icon" src="img/hitbox.png" </a>
+                    <a class="box" title="Scimitar on YouTube" href="https://www.youtube.com/channel/UCpRCA1cEZVdTSQOT39oqc2g">
+                        <img class="icon" src="img/youtube.png">
+                    </a>
+                    <a class="box" title="wplanetary on GitHub" href="https://github.com/wplanetary">
+                        <img class="icon" src="img/github.png">
+                    </a>
+                    <a class="box" title="Fractal Hexagon's Projects" href="https://docs.google.com/spreadsheets/d/1KYiz4Ah8-cri44pb6uXNfaVl65zBSVD3yzGD8MZDBZs/edit?usp=sharing">
+                        <img class="icon" src="img/drive.png">
+                    </a>
+                    <a class="box" title="Scimitar on Steam" href="http://steamcommunity.com/id/theplanetary/">
+                        <img class="icon" src="img/steam.png" </a>
+                        <a class="box" title="Scimitar on Retrospring" href="https://retrospring.net/Scimitar">
+                            <img class="icon" src="img/justask.png">
+                        </a>
+                        <a class="box" title="Email fuckscimi@tfwno.gf" href="mailto:fuckscimi@tfwno.gf">
+                            <img class="icon" src="img/email.png">
+                        </a>
+                        <a class="box" title="Send a Skype message to the_cow4rd" href="skype:the_cow4rd?chat">
+                            <img class="icon" src="img/skype.png">
+                        </a>
+                        <a class="box" title="Scimitar on Hummingbird" href="https://hummingbird.me/users/Scimitar">
+                            <img class="icon" src="img/hummingbird.png">
+                        </a>
+                        <a class="box" title="Planetary W on Google+" href="https://plus.google.com/u/0/110983339495873925447/posts">
+                            <img class="icon" src="img/google+.png">
+                        </a>
+                        <a class="box" title="Scimitar on Player.me" href="https://player.me/scimitar">
+                            <img class="icon" src="img/playerme.png">
+                        </a>
+                        <a class="box" title="Wyatt Winters on Facebook" href="https://facebook.com/AlmightyCoward">
+                            <img class="icon" src="img/facebook.png">
+                        </a>
+                        <a class="box" title="the planetary on Bandcamp" href="https://theplanetary.bandcamp.com">
+                            <img class="icon" src="img/bandcamp.png">
+                        </a>
+                        <a class="box" title="fuckscimi@tfwno.gf on PayPal" href="">
+                            <img class="icon" src="img/Paypal.png">
+                        </a>
+            </p>
+        </div>
+
+        <footer class="site-footer">
+            <span class="site-footer-owner">
+            <br />I do not own anything nor music nor pictures, mention me on Twitter if you want me to take something down.
+            <br />Track: "cket" by Kanno Youko / "Hero" by Savant.
+            <br />Music
+            <label for="switch">
+                <input type="checkbox" onclick="playPause();" checked /> /
+            </label>
+                Lights:
+                    <input type="radio" name="light" value="on" onclick="swapStyleSheet('./css/stylesheet.css');" checked> On 
+                    <input type="radio" name="light" value="off" onclick="swapStyleSheet('./css/night.css');"> Off
+
+    </section>
+
+</html>

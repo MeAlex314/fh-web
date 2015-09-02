@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html
+    xmlns="http://www.w3.org/1999/xhtml">
+    <script>
+    var snd = new Audio("../audio/pentakill.mp3");
+    var snd2 = new Audio("../audio/kaaris.mp3");
+</script>
+    <head>
+        <meta charset="utf-8">
+            <title>THE MEMES ARE TOO STRONG</title>
+            <link rel="stylesheet" href="style.css" />
+            <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+                <link rel="icon" href="favicon.png" type="image/x-icon">
+                    </head>
+                    <body>
+                    </body>
+                        <div class="shitmeme" align="center">
+                            <button class="pentakill" onclick="snd.play(); snd.currentTime=0;">
+                                            <img class="mememaker" src="../images/anime.gif">
+                                            </button>
+                                                        </div>
+    <div class="shitmeme" align="center">
+                            <button class="pentakill" onclick="snd2.play(); snd2.currentTime"><img class="mememaker" src="../images/allahakbar.gif"></button>
+    </div>
+</html>

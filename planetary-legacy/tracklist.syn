@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>TRACKLIST</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <div class="header">
+        <h1 align="center" class="pagetitle">
+                                    <button id="xdmemes" onclick="snd.play(); snd.currentTime=0;" class="topkek">
+                                        <img class="avatar"src="images/avatar.jpg" align="left">
+                                        </button>
+                                    </h1>
+        <div class="div1">
+            <h2 class="title2">Name of the tracks</h2>
+            <p class="p1">
+                Here are the tracks you can hear on this page:
+                <br />
+                <ul>
+                    <li>01 - Aleksander Vinter (Savant) - <a href="audio/bgm1.mp3">Perfect</a>
+                    </li>
+                    <li>02 - Savant - <a href="audio/bgm2.mp3">Outcasts</a>
+                    </li>
+                    <li>03 - Savant - <a href="audio/bgm3.mp3">Nebula</a>
+                    </li>
+                    <li>04 - Savant - <a href="audio/bgm4.mp3">Rapture</a></li>
+                    <li>05 - Savant - <a href="audio/bgm5.mp3">Overkill</a></li>
+                    <li>06 - Steins;Gate Symphonic Reunion - <a href="audio/bgm8.mp3">Always in this Place</a></li>
+                    <li>07 - Savant - <a href="audio/bgm9.mp3">Invasion (Scimitar Album Mix)</a></li>
+                    <li>08 - Savant - <a href="audio/bgm10.mp3">Dishonored</a></li>
+                    <li>09 - Simon Viklund - <a href="audio/bgm11.mp3">The Mark</a></li>
+                    <li>10 - Imagine Dragons - <a href="audio/bgm12.mp3">I'm so Sorry</a></li>
+                </ul>
+
+            </p>
+        </div>
+        <p class="credits">Background image by
+            <a href="https://chriscold.deviantart.com/">ChrisCold</a>
+            <br />I do not own anything nor music nor pictures, mention me on Twitter if you want me to take something down.
+        </p>
+</body>
+
+</html>

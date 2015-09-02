@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>SHARDSTREAM</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="content/css/glitch.css" rel="stylesheet" type="text/css" />
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="images/favico.png" type="image/x-icon">
+    <link rel="icon" href="images/favico.png" type="image/x-icon">
+    <audio autoplay loop>
+        <source src="bgm.mp3" type="audio/mpeg">
+    </audio>
+</head>
+
+<body>
+    <h1 data-time="memes" class="maymay" style="font-family: 'dot_matrixregular', 'Roboto Condensed'; font-size: 5em;"><img src="images/logo.png"></h1>
+    <h2> The Providence Online: Echo of the Mirror Shards (Act V)</h2>
+    <p>
+        <br />Welcome to SHARDSTREAM's official website.
+        <br />The game is not available yet, and is still in early development, but more content will be added here as we create it.</p>
+    <br />
+    <h2>What is SHARDSTREAM?</h2>
+    <p>SHARDSTREAM is an independant upcoming video game created by the team of Fractal Hexagon. It is a tactical RPG inspired by <a href="http://www.wikiwand.com/en/Final_Fantasy_Tactics_Advance ">Final Fantasy Tactics Advance</a>, <a href="http://www.wikiwand.com/en/Advance_Wars ">Advance Wars</a>, and some elements of <a href="http://www.wikiwand.com/en/Fire_Emblem ">Fire Emblem</a>, <a href="http://www.civilization.com/ ">Civilization</a>, <a href="http://www.wikiwand.com/en/Disgaea ">Disgaea</a>, <a href="http://www.wikiwand.com/en/Metal_Gear_Solid:_Peace_Walker ">Metal Gear Solid: Peace Walker</a> and <a href="https://www.wikiwand.com/en/Descent:_Journeys_in_the_Dark ">Descent: Journeys in the Dark</a>. It will be released on Steam. The game will be set in the universe of the Providence Online novels and will be a sequel to it. It will be moddable and uses the Unity 5 engine, and is also open sourced.</p>
+    <p>You can participate in the game's development if you know what you're doing by heading over to our <a href="https://github.com/FractalHexagon/SHARDSTREAM ">GitHub</a> page, <a href="mailto:fractalhexagon@gmail.com ">or sending us an email</a> to draw artwork for the game.
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+    </p>
+    <p style="font-size: 0.8em;">Track: Witchcraft by pixeldesu; the author has authorized us to use the track however it belongs to him.</p>
+</body>

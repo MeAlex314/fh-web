@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>I am Scimitar.</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+    <script>
+        var snd = new Audio("audio/tutturu.mp3");
+        var snd2 = new Audio("audio/wombocombo.mp3");
+        var snd3 = new Audio("audio/pentakill.mp3");
+
+        function playPause() {
+            var audioPlayer = document.getElementsByTagName('audio')[0];
+            if (audioPlayer != undefined) {
+                if (audioPlayer.paused) {
+                    audioPlayer.play();
+                } else {
+                    audioPlayer.pause();
+                }
+            } else {
+                loadPlayer();
+            }
+        }
+    </script>
+    <script type="text/javascript">
+        var collection = []; // final collection of sounds to play
+        var loadedIndex = 0; // horrible way of forcing a load of audio sounds
+
+        // remap audios to a buffered collection
+        function init(audios) {
+            for (var i = 0; i < audios.length; i++) {
+                var audio = new Audio(audios[i]);
+                collection.push(audio);
+                buffer(audio);
+            }
+        }
+
+        // did I mention it's a horrible way to buffer?
+        function buffer(audio) {
+            if (audio.readyState == 4) return loaded();
+            setTimeout(function () {
+                buffer(audio)
+            }, 100);
+        }
+
+        // check if we're leady to dj this
+        function loaded() {
+            loadedIndex++;
+            if (collection.length == loadedIndex) playLooped();
+        }
+
+        // play and loop after finished
+        function playLooped() {
+            var audio = Math.floor(Math.random() * (collection.length));
+            audio = collection[audio];
+            audio.play();
+            setTimeout(playLooped, audio.duration * 1000);
+        }
+
+        // the songs to be played!
+        init([
+  'audio/bgm1.mp3',
+  'audio/bgm2.mp3',
+  'audio/bgm3.mp3',
+  'audio/bgm4.mp3',
+  'audio/bgm5.mp3',
+  'audio/bgm8.mp3',
+  'audio/bgm9.mp3',
+  'audio/bgm10.mp3',
+  'audio/bgm11.mp3',
+  'auido/bgm12.mp3'
+]);
+    </script>
+<section class="page-header">
+        <h1 align="center" class="pagetitle">
+                                    <button id="xdmemes" onclick="snd.play(); snd.currentTime=0;" class="topkek">
+                                        <img class="avatar"src="images/avatar.jpg" align="left">
+                                        </button>
+                                    </h1>
+    </section>
+            <h2 class="title2">Who am I?</h2>
+            <p class="p1">
+                <br />Aeey!
+                <br /> I am Scimitar (but you may also call me "Planetary" or "fucking retard") and this is my
+                <strike>website</strike> homepage.
+                <br />I usually keep shitposting on Twitter and write things for
+                <a href="https://fractalhexagon.net">Fractal Hexagon</a> (which I also founded, coincidentally).
+                <br />I also made a few
+                <a href="https://github.com/FractalHexagon/Snowflake">shitty CSS themes</a> for TweetDeck, and I'm working on a
+                <a href="https://github.com/FractalHexagon/SHARDSTREAM">video game</a> with guys at FH, as well as a few other projects.
+                <br /> My motto? FUCK DEADLINES!
+                <em>WITH A CACTUS!</em>
+                <br /> (Also, stop trying to be productive, you know you'll just end up playing vidyaes.)
+                <br /> And remember: FUCK COMMENTED CODE!
+                <em>/* WITH A CACTUS! */</em>
+            </p>
+        </div>
+        <p class="credits">Background image by
+            <a href="https://chriscold.deviantart.com/">ChrisCold</a>
+            <br />I do not own anything nor music nor pictures, mention me on Twitter if you want me to take something down.
+            <br />The complete tracklist is <a href="tracklist.syn">here</a>.
+            <br />Music:
+            <label for="switch">
+                <input type="checkbox" id="switch" onclick="playPause();" checked />
+            </label>
+        </p>
+        <div class="div2">
+            <h2 class="title2"> LINKS !</h2>
+            <p>
+                <br />Hover to see what it's all about!
+                <br />
+            </p>
+            <p class="links">
+                <a class="icon" title="@WPlanetary on Twitter" href="http://twitter.com/WPlanetary">
+                    <img class="icon" src="images/twitter.png">
+                </a>
+                <a class="box" title="Fractal Hexagon on Facebook" href="http://facebook.com/FractHex">
+                    <img class="icon" src="images/facebook.png">
+                </a>
+                <a class="box" title="@FractHex on Twitter" href="http://twitter.com/FractHex">
+                    <img class="icon" src="images/twitter.png">
+                </a>
+                <br />
+                <a class="box" title="ScimitarF on Last.fm" href="http://www.last.fm/user/ScimitarF">
+                    <img class="icon" src="images/lastfm.png">
+                </a>
+                <a class="box" title="ScimitarF on Hitbox" href="http://hitbox.tv/ScimitarF">
+                    <img class="icon" src="images/hitbox.png" </a>
+                    <a class="box" title="Scimitar on YouTube" href="https://www.youtube.com/channel/UCpRCA1cEZVdTSQOT39oqc2g">
+                        <img class="icon" src="images/youtube.png">
+                    </a>
+                    <br />
+                    <a class="box" title="TheCoward on GitHub" href="https://github.com/TheCoward">
+                        <img class="icon" src="images/github.png">
+                    </a>
+                    <a class="box" title="Fractal Hexagon's Projects" href="https://docs.google.com/spreadsheets/d/1KYiz4Ah8-cri44pb6uXNfaVl65zBSVD3yzGD8MZDBZs/edit?usp=sharing">
+                        <img class="icon" src="images/drive.png">
+                    </a>
+                    <a class="box" title="Scimitar on Steam" href="http://steamcommunity.com/id/wintersfroste">
+                        <img class="icon" src="images/steam.png" </a>
+                        <br />
+                        <a class="box" title="Scimitar on Retrospring" href="https://retrospring.net/Scimitar">
+                            <img class="icon" src="images/justask.png">
+                        </a>
+                        <a class="box" title="Email fuckscimi@tfwno.gf" href="mailto:fuckscimi@tfwno.gf">
+                            <img class="icon" src="images/email.png">
+                        </a>
+                        <a class="box" title="Send a Skype message to the_cow4rd" href="skype:the_cow4rd?chat">
+                            <img class="icon" src="images/skype.png">
+                        </a>
+                        <br />
+                        <a class="box" title="Scimitar on Hummingbird" href="https://hummingbird.me/users/Scimitar">
+                            <img class="icon" src="images/hummingbird.png">
+                        </a>
+                        <a class="box" title="Froste Winters on Google+" href="https://plus.google.com/u/0/110983339495873925447/posts">
+                            <img class="icon" src="images/google+.png">
+                        </a>
+                        <a class="box" title="Scimitar on Player.me" href="https://player.me/scimitar">
+                            <img class="icon" src="images/playerme.png" </a>
+            </p>
+        </div>
+</body>
+
+</html>
