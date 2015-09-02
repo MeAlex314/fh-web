@@ -1,2 +1,2 @@
-# fracthex-website
-Official website of Fractal Hexagon.
+# fh-web
+Repository comprised of all the Fractal Hexagon pages.
