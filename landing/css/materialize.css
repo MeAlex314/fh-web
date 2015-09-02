@@ -9,6 +9,15 @@ body {
     color: #eee;
 }
 
+.user-avatar {
+    border-radius: 100px !important;
+}
+
+img.responsive-img .user-avatar, {
+    width: 60px !important;
+    height: 60px !important;
+}
+
 .materialize-red.lighten-5 {
     background-color: #fdeaeb !important;
 }
@@ -7516,14 +7525,14 @@ footer.page-footer .footer-copyright {
     padding: 20px;
     margin: 0.5rem 0 1rem 0;
     border-radius: 2px;
-    background-color: #fff;
+    background-color: #222;
 }
 
 .card {
     position: relative;
     overflow: hidden;
     margin: 0.5rem 0 1rem 0;
-    background-color: #fff;
+    background-color: #222;
     transition: box-shadow .25s;
     border-radius: 2px;
 }
@@ -7637,12 +7646,12 @@ footer.page-footer .footer-copyright {
 }
 
 .card .card-action {
-    border-top: 1px solid rgba(160, 160, 160, 0.2);
+    border-top: 1px solid rgba(80, 80, 80, 0.2);
     padding: 20px;
 }
 
 .card .card-action a {
-    color: #ffab40;
+    color: #7b1fa2;
     margin-right: 20px;
     -webkit-transition: color .3s ease;
     -moz-transition: color .3s ease;
@@ -7653,7 +7662,7 @@ footer.page-footer .footer-copyright {
 }
 
 .card .card-action a:hover {
-    color: #ffd8a6;
+    color: #8e24aa;
 }
 
 .card .card-reveal {
