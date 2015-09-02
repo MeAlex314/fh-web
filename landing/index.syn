@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+    <title>fractal hexagon</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="img/favicon.png" rel="shortcut icon" />
+</head>
+
+<body>
+    <nav class="purple darken-3" role="navigation">
+        <div class="nav-wrapper container">
+            <a id="logo-container" href="#" class="brand-logo"><img src="img/logo64.png">
+            </a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#">members</a>
+                </li>
+                <li><a href="#">projects</a>
+                </li>
+            </ul>
+
+            <ul id="nav-mobile" class="side-nav">
+                <li><a href="#">members</a>
+                </li>
+                <li><a href="#">projects</a>
+                </li>
+            </ul>
+            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+        </div>
+    </nav>
+    <div class="section no-pad-bot" id="index-banner">
+        <div class="container">
+            <br>
+            <br>
+            <h1 class="header center purple-text text-darken-3">fractal hexagon</h1>
+            <div class="row center">
+                <h5 class="header col s12 light">release the trigger</h5>
+            </div>
+            <div class="row center">
+                <a href="https://twitter.com/fracthex" id="download-button" class="btn-large waves-effect waves-light purple darken-3">follow our twitter</a>
+                <a href="https://facebook.com/fractalhexagon" id="download-button" class="btn-large waves-effect waves-light purple darken-3">like our facebook</a>
+            </div>
+            <br>
+            <br>
+
+        </div>
+    </div>
+
+    <div class="container center col s12 m4">
+        <p class="light">
+            Fractal Hexagon is a network of independent people working on various projects, some of which include webdesign, storywriting, and eventually video game development. The co-founders of Fractal Hexagon are Dasporal, Haruto and Planetary, and we have worked on various projects, including the Snowflake theme for TweetDeck, Redlight for YouTube (experimental). We are working on a few light novel series, including which the Arch Nova Renegades series, The Providence Online series, and the World;Slicers series. We seek to create a video game based on The Providence Online novels; it will be a T-RPG game currently known as the project name SHARDSTREAM. However, we are for the most college students, meaning we have limited financial means, and little time on our hands, making it difficult to find time to work on the project. We want to shift to other media, such as an in-the-works webcomic under the name Everwinter, and a computer graphics webseries known as &lt;WORLD/SWITCH&gt;; taking over a discontinued light novel project. Fractal Hexagon is open to anyone, at least anyone we know. This is an informal small group (as such, this website is mostly for internal use and referencing of our projects). There are technically no application requirement, except maybe you need to be a developer, a webdesigner, a writer, or an artist of any kind, and no particular order or contribution is asked. It is mostly about people helping each other out <em>if they want to</em>. That also means unless we ask a third-party, we are not looking to hire for a retributed job.</p>
+    </div>
+    </div>
+
+    <footer class="page-footer purple darken-3">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Our projects</h5>
+                    <p class="grey-text text-lighten-4">We create a various set of content, be it light novels or userstyles.</p>
+                    <div class="col l3 s12">
+                        <h5 class="white-text">Our novels</h5>
+                        <ul>
+                            <li><a class="white-text" href="#!">The Providence Online (Act I)</a>
+                            </li>
+                            <li><a class="white-text" href="#!">The Providence Online (Act II)</a>
+                            </li>
+                            <li><a class="white-text" href="#!">World;Slicers</a>
+                            </li>
+                            <li>
+                                <a class="white-text" href="#!">Arch Nova Renegades</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l3 s12">
+                        <h5 class="white-text">Other</h5>
+                        <ul>
+                            <li><a class="white-text" href="#!">GitHub organization</a>
+                            </li>
+                            <li><a class="white-text" href="#!">Novels overview</a>
+                            </li>
+                            <li><a class="white-text" href="https://fractalhexagon.net/dev/snowflake">Snowflake</a>
+                            </li>
+                            <li><a class="white-text" href="https://github.com/FractalHexagon/Redlight-for-YouTube">Redlight</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    Shamelessly stolen <a class="purple-text text-lighten-3" href="http://materializecss.com">Materialize</a>.css while our own design is under work. </div>
+            </div>
+    </footer>
+
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="../../bin/materialize.js"></script>
+    <script src="js/init.js"></script>
+
+</body>
+
+</html>
